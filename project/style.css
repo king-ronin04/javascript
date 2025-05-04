@@ -145,6 +145,9 @@ body {
   #left-center h1:nth-child(2n) {
     text-align: center;
   }
+  #left-center h1:nth-child(4) {
+    margin-left: 150px;
+  }
 
   #left-bottom {
     /* background-color: yellow; */
@@ -161,12 +164,12 @@ body {
     padding: 20px;
   }
   #right video{
-    height: 40vh;
+    height: 36vh;
   }
 
   #arrow {
     left: 58%;
-    top: 60%;
+    top: 58%;
     padding: 10px;
     transform: translate(-50%, -50%) rotate(90deg)
   }
